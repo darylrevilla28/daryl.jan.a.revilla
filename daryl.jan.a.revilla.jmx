@@ -1283,7 +1283,7 @@ mRˎ� &#x10;�&#x17;���&#x3;���h�&#x8;�v��&#x1;&#x4;ؙ(ʿ
             <hashTree/>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="-931073832">{&quot;phrase&quot;:</stringProp>
+                <stringProp name="-193804564">(?i)${p_searchTerm}</stringProp>
               </collectionProp>
               <stringProp name="Assertion.custom_message"></stringProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -1469,6 +1469,16 @@ mRˎ� &#x10;�&#x17;���&#x3;���h�&#x8;�v��&#x1;&#x4;ؙ(ʿ
                 </elementProp>
               </collectionProp>
             </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-1309599999">header__logo js-logo-ddg</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
             <hashTree/>
           </hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/t.js-20" enabled="false">
